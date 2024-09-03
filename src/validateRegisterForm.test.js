@@ -1,11 +1,6 @@
 'use strict';
 
 describe(`Function 'validateRegisterForm':`, () => {
-  const validBoth = {
-    code: 200,
-    message: 'Email and password are valid.',
-  };
-
   const invaildEmail = {
     code: 422,
     message: 'Email is invalid.',
